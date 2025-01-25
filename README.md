@@ -30,31 +30,19 @@ The model is built using Convolutional Neural Networks (CNNs) in Keras. The arch
 - **Keras**: `pip install keras`
 - **Pygame**: `pip install pygame`
 
-# Installation Instructions
+## How it Works
+- The system captures the driver’s face through the webcam.
+- It detects facial features (like eyes) using pre-trained Haar cascade classifiers.
+- If the eyes are detected as closed for too long, it triggers an alarm sound.
 
-# Guide on how to set up the project in a local environment.
-
-# Clone the repository:
-git clone <repository-url>
-
-# Install dependencies:
-pip install -r requirements.txt
-
-# Usage
-
-# A simple example on how to use the application.
-
-# To start the drowsiness detection system:
-python drowsiness_detection.py
-
-# How It Works
-
-# The system captures the driver’s face through the webcam.
-# It detects facial features (like eyes) using pre-trained Haar cascade classifiers.
-# If the eyes are detected as closed for too long, it triggers an alarm sound.
 
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
+
+## Acknowledgements
+
+- **OpenCV** for face and eye detection.
+- **Keras** for building the deep learning model.
 
 
